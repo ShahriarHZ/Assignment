@@ -68,7 +68,7 @@ header {
 .banner-content {
    width: 1360px;
 height: 379px;
-/* Auto layout */
+
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -213,4 +213,24 @@ gap: 32;
 }
 .third .para{
     padding-top: 16px;
+}
+.cta {
+    padding: 70px 0;
+    text-align: center;
+    background: #fefce8;
+}
+
+.cta p {
+    margin: 12px 0 24px;
+}
+.arrow{
+    display: inline-block;
+  vertical-align: middle;
+}
+.cta{
+    padding-top: 80px;
+    margin-top: 120px;
+    margin-left: 363px;
+    margin-right: 363px;
+    margin-bottom: 120px;
 }
